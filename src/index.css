@@ -1,0 +1,38 @@
+/* src/index.css */
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://img.freepik.com/free-vector/blackboard-food-background_23-2148052965.jpg?t=st=1722783318~exp=1722786918~hmac=31cc1161e8236d530c91d1bd15498def4cabbc9326a313e3cf918c0af83ca211&w=740') no-repeat center center fixed; /* Update the URL with your image */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-text-field {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
